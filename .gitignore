@@ -63,4 +63,4 @@ package-lock.json
 
 .yarn-integrity
 
-.openssl
+openssl

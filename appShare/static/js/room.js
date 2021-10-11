@@ -258,3 +258,10 @@ function stop() {
   pc.close();
   pc = null;
 }
+
+///////////////////////////////////////////////////////
+
+var btnHome = document.getElementById("btnHome");
+btnHome.addEventListener("click", (e) => {
+  location.href = "https://localhost:8080/";
+});

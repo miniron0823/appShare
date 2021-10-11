@@ -1,0 +1,16 @@
+{
+  "name": "appshare",
+  "version": "1.0.0",
+  "description": "webRTC ",
+  "scripts": {
+    "server": "nodemon ./server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "socket.io": "^2.0.4"
+  }
+}
